@@ -2,11 +2,11 @@ MANIPULATE
 ===
 #### Manipulate 470 POINTS
 
-### Link file: <a href="https://github.com/P5ySm1th/CTF/blob/main/XMAS-CTF/manipulated.zip" download>tại đây</a>
+
 
 ![image](https://user-images.githubusercontent.com/100250271/209122788-c0dc7a97-5d27-4399-8458-9fcd7bafd950.png)
 
-
+### Link file: <a href="https://github.com/P5ySm1th/CTF/blob/main/XMAS-CTF/manipulated.zip" download>tại đây</a>
 Thật ra bài này nói khó thì không khó, dễ thì cũng không dễ, bài này cũng chỉ ở mức tầm trung so với một đứa chơi ctf chưa bao lâu như mình ( nhưng khá là lâu để mình ngộ nhận ra chân lý xD)
 Đây là suy nghĩ hướng đi của mình xuyên suốt bài, không phải là một cách đi thẳng tới đáp án. Nếu muốn thì bạn có thể lướt tới TLDR
 Đề bài cho chúng ta một file zip với mật khẩu là: Christmas. 
