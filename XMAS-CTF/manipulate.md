@@ -73,10 +73,11 @@ N+ke3xIGF/h//tiT4SxIECOxGG7moZui0dccxtqmUg0=
 ```
 Ở đây chúng ta có hai string, string đầu tiên là mã base64, decrypt ra thì chúng ta có: `Chr4istmasJoy`
 Nhìn thấy là có hope rồi ấy =)) nhưng mà đời thì không dễ như vậy =)) còn đoạn string bên dưới thì mình vẫn không biết đó là string gì. Nhưng nhìn tới dòng description 
-trong keepass mà tác giả để lại thì **We only know that he likes some good cooked fish.** thì mình đã bắt đầu search `fish decryption` và phát hiện ra (blowfish encryption)[http://sladex.org/blowfish.js/]
+trong keepass mà tác giả để lại thì **We only know that he likes some good cooked fish.** thì mình đã bắt đầu search `fish decryption` và phát hiện ra 
+[blowfish encryption](http://sladex.org/blowfish.js/)
 
 Nói nôm na thì blowfish cần giá trị và key, mình đã thử dùng các string mà mình đã tìm được trong lúc làm và áp chúng vào bao gồm: `Chr4istmasJoy (decrypt)`, `ZlZlZVI3N0p1YQ== (encrypt)`,
-`fVeeR77Jua (decrypt)`,`Q2hyNGlzdG1hc0pveQ== (encrypt)` thì thật may là `Q2hyNGlzdG1hc0pveQ==` áp vào thì được một đường link (pastebin)[https://pastebin.com/CPzeYJmb]
+`fVeeR77Jua (decrypt)`,`Q2hyNGlzdG1hc0pveQ== (encrypt)` thì thật may là `Q2hyNGlzdG1hc0pveQ==` áp vào thì được một đường link [pastebin](https://pastebin.com/CPzeYJmb)
 ![image](https://user-images.githubusercontent.com/100250271/209136042-9ce6ce50-a029-4039-816d-0af4eb829b0e.png)
 
 Truy cập vào link, thì thấy nó cần password để vào, pass đó là `fVeeR77Jua` được decrypt từ file `psswd.txt`. Và chúng ta ra được flag của đề 
