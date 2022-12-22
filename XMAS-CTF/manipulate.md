@@ -55,6 +55,7 @@ mà có vẻ như mọi thứ vẫn không được. Tới lúc này mình phả
 └─$ keepass2john Flag.kdbx > hash.txt
 ```
 Wordlist mình hay dùng là rockyou.txt có thể tìm thế tại `/usr/share/wordlists`
+
 2. dùng command `john --wordlist=[thư mục chứa wordlist] [hash text]`
 ```
 ┌──(kali㉿kali)-[~/Desktop/Xmas-CFT/manipulated]
