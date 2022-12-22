@@ -35,7 +35,7 @@ hợp này thì mình dùng [HxD](https://mh-nexus.de/en/hxd/)). Chỉnh độ d
 Quá là thơm =)) tới đây thì mình inspect thử file nén `flag.zip`. Trong file có một file `passwd.txt`, thử unzip hoặc mở trực tiếp nó ra thì không được, nên mình đã thử áp đoạn string mình
 mới tìm được trên file `jpeg` thì nó đã hoạt động
 ![image](https://user-images.githubusercontent.com/100250271/209127571-da3c028f-c741-416e-aa7a-510e0c2d7eb9.png)
-Là một đoạn base64 được encrypt, thử decrypt bằng cyberchef
+Là một đoạn base64 được encrypt, thử decrypt bằng [cyberchef](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto'))
 
 **Đoạn base64 sau khi decrypt: fVeeR77Jua**
 
