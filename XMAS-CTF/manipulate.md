@@ -1,6 +1,6 @@
-Manipulate
+MANIPULATE
 ===
-#### 470 POINTS
+#### Manipulate 470 POINTS
 
 ![image](https://user-images.githubusercontent.com/100250271/209122788-c0dc7a97-5d27-4399-8458-9fcd7bafd950.png)
 
