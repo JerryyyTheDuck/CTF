@@ -9,6 +9,8 @@ Lưu ý: đây là cách mình đã suy nghĩ xuyên suốt cả bài cho tới 
 
 Bài này thuộc về phần Forensic, bài này khá thú vị. Bài này mình cảm ơn Bory rất nhiều nếu không có Bory thì chắc mình đã không solve được chal này.
 
+**Link tải file:** [tại đây](https://github.com/P5ySm1th/CTF/blob/main/NiteCTF2022/Forensic/data/CandyStore.pdf)
+
 Download file đề về thì ta có một file `CandyStore.pdf`. Mở ra thì có vẻ như nó có password.
 
 <p align="center">
