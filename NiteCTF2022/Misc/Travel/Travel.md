@@ -7,7 +7,7 @@ Lưu ý: đây là cách mình đã suy nghĩ xuyên suốt cả bài cho tới 
   <img src="https://user-images.githubusercontent.com/100250271/209463407-9e1af1a8-4d62-4a9d-8a71-20aa3c19c236.png">
 </p>
 
-**Link tải file:** [tại đây]()
+**Link tải file:** [tại đây](https://github.com/P5ySm1th/CTF/blob/main/NiteCTF2022/Misc/Travel/owl.jpg)
 
 Ban đầu, đề bài cho chúng ta một cái file `owl.jpg`, bắt đầu mở thử lên xem bên trong có gì
 
