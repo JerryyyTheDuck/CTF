@@ -11,28 +11,28 @@ Lưu ý: đây là cách mình đã suy nghĩ xuyên suốt cả bài cho tới 
 
 <table align = "center">
 <h2 align=center>MỤC LỤC CHALLANGE</h2>
-    <td>
+  <tr>
+  <td>
 
 STT | Link |
-| :---------: | :--: |
-| Challange 1 | Link | 
-| Challange 2 | Link | 
-| Challange 3 | Link | 
-| Challange 4 | Link | 
-| Challange 5 | Link 
-
+| :--------- | :-- |
+| [Flag1] Sanity check | [Link](#flag1-sanity-check) | 
+| [Flag2] Hidden | [Link](#flag2-hidden) | 
+| [Flag3] Or does anybody | [Link](#flag3-or-does-anybody) | 
+| [Flag4] Save Bory's times | [Link](#flag4-save-borys-times) | 
+| [Flag5] Owner permission | [Link](#flag5-owner-permission)| 
   </td>
   <td>
 
 STT | Link |
-| :---------: | :--: | 
-| Challange 6 | Link | 
-| Challange 7 | Link | 
-| Challange 8 | Link | 
-| Challange 9 | Link | 
-| Challange 10| Link | 
-
+| :--------- | :--: | 
+| [Flag6] Log files | [Link](#flag6-log-files) | 
+| [Flag7] Hide and seek | [Link](#flag7-hide-and-seek) | 
+| [Flag8] Malmand | [Link](#flag8-malmand) | 
+| [Flag9] EXEC_ME | [Link](#flag9-exec_me) | 
+| [Flag10] Privilege Escalation| [Link](#flag10-privilege-escalation) | 
   </td>
+  </tr>
 </table>
 
 
@@ -41,8 +41,9 @@ STT | Link |
 
 
 
+
 ------------------------
-**<h2>[Flag1] Sanity check</h2>**
+## [Flag1] Sanity check
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211604649-2e0c1815-e50a-4495-963b-fa5b8d8f16ce.png">
 </p>
@@ -74,7 +75,7 @@ FIA{Welcome_to_the entrance_test}
 ```
 #### Flag: FIA{Welcome_to_the entrance_test}
 -----------------------------
-**<h2>[Flag2] Hidden</h2>**
+## [Flag2] Hidden
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211607932-c78cb324-1383-4435-a969-d153f1dfd253.png">
 </p>
@@ -120,7 +121,7 @@ FIA{y0u_f0und_a_v3ry_h1dd3n_Fl4g}
 ```
 #### Flag: FIA{y0u_f0und_a_v3ry_h1dd3n_Fl4g}
 ----------------------
-**<h2>[Flag3] Or does anybody</h2>**
+## [Flag3] Or does anybody
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211609858-7b6b1957-7df9-410f-80d1-15ba59be247b.png">
 </p>
@@ -196,7 +197,7 @@ FIA{4lways_ch3ck_SuS_F1l3s}
 #### Flag: FIA{4lways_ch3ck_SuS_F1l3s}
 
 --------------------------------
-**<h2> [Flag4] Save Bory's times</h2>**
+## [Flag4] Save Bory's times
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211616496-ee6b4e7c-fee5-4df9-a8e6-caef34e689f3.png">
 </p>
@@ -224,7 +225,7 @@ Một đống file, để có thể tìm ra flag chúng ta dùng câu lệnh `gr
 
 #### FIA{Gr3p_1s_th3_b3st_c0mmand_t0_f1nd_m1ssing_th1ngs}
 ---
-**<h2> [Flag5] Owner permission</h2>**
+## [Flag5] Owner permission
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211618709-089cf3b4-e23d-4fe6-ba09-50937701f3ad.png">
 </p>
@@ -280,7 +281,7 @@ Và chúng ta đã có flag
 
 #### FIA{f1l3_p3rm1SSion_1s_v3RY_1mP0rt4nt}
 ---
-**<h2> [Flag6] Log files</h2>**
+## [Flag6] Log files
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211623065-ad09d513-f44d-4404-95e3-636fcfc1397a.png">
 </p>
@@ -301,8 +302,7 @@ Tại đây có một file tên `flagsix`. Dùng `cat` để xem file và ta có
 #### FIA{l0gs_file_on_th3_SYST3M_1s_h3r3}
 
 ----
-**<h2> [Flag7] Hide and seek</h2>**
-<p align="center">
+## [Flag7] Hide and seek
   <img src="https://user-images.githubusercontent.com/100250271/211624868-3bc40adf-7386-4953-af77-b30d2a27e77f.png">
 </p>
 
@@ -328,7 +328,7 @@ FIA{UwU_y0u_f1nd_m3_c0ngr4tul4t10n}
 ```
 #### FIA{UwU_y0u_f1nd_m3_c0ngr4tul4t10n}
 ---
-**<h2>  [Flag8] Malmand</h2>**
+##  [Flag8] Malmand
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211626576-1b342aa7-482a-48ef-83dc-88491f03744f.png">
 </p>
@@ -354,7 +354,7 @@ Dựa vào những kiến thức mà chúng ta có về kiến thức `log file`
 
 #### Flag: FIA{SuSSy_pr0c3ss_1s_runn1ng_0n_th3_b4ckgr0und}
 ----
-**<h2>  [Flag9] EXEC_ME</h2>**
+##  [Flag9] EXEC_ME
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211628586-94278272-211a-41f4-bc5a-c626b5359d6c.png">
 </p>
@@ -390,7 +390,7 @@ Ghép thêm đầu flag `FIA{` và dấu `}` ta có flag
 #### FIA{B4sh_scr1pt_1s_v3ry_1mp0rt4nt}
 
 ---
-**<h2>  [Flag10] Privilege Escalation</h2>**
+##  [Flag10] Privilege Escalation
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/211630519-71fbb5ab-d01f-4d15-93b2-9c28f66b2c92.png">
 </p>
