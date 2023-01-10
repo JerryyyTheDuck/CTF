@@ -11,7 +11,6 @@ Lưu ý: đây là cách mình đã suy nghĩ xuyên suốt cả bài cho tới 
 
 <table align = "center">
 <h2 align=center>MỤC LỤC CHALLANGE</h2>
-  <tr>
     <td>
 
 STT | Link |
@@ -33,8 +32,8 @@ STT | Link |
 | Challange 9 | Link | 
 | Challange 10| Link | 
 
-</td></tr> </table>
-
+  </td>
+</table>
 
 
 
