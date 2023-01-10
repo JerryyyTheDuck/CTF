@@ -8,18 +8,38 @@ Lưu ý: đây là cách mình đã suy nghĩ xuyên suốt cả bài cho tới 
     </ul>
 
 
-| No | Link |
-| --------------- | --------------- |
-| Challange 1 | Row 1 Column 2 | 
-| Challange 2 | Row 2 Column 2 | 
-| Challange 3 | Row 3 Column 2 | 
-| Challange 4 | Row 1 Column 2 | 
-| Challange 5 | Row 2 Column 2 | 
-| Challange 6 | Row 3 Column 2 | 
-| Challange 7 | Row 1 Column 2 | 
-| Challange 8 | Row 2 Column 2 | 
-| Challange 9 | Row 3 Column 2 | 
-| Challange 10| Row 1 Column 2 | 
+
+<table align = "center">
+<h2 align=center>MỤC LỤC CHALLANGE</h2>
+  <tr>
+    <td>
+
+STT | Link |
+| :---------: | :--: |
+| Challange 1 | Link | 
+| Challange 2 | Link | 
+| Challange 3 | Link | 
+| Challange 4 | Link | 
+| Challange 5 | Link 
+
+  </td>
+  <td>
+
+STT | Link |
+| :---------: | :--: | 
+| Challange 6 | Link | 
+| Challange 7 | Link | 
+| Challange 8 | Link | 
+| Challange 9 | Link | 
+| Challange 10| Link | 
+
+</td></tr> </table>
+
+
+
+
+
+
 
 
 ------------------------
