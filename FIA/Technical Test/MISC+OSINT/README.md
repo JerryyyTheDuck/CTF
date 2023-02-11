@@ -37,7 +37,7 @@ STT | Link |
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/217152118-eacc4b2d-c0e7-4b1b-b768-73b0b8005904.png">
 </p>
-Link đề tải tại đây
+Link đề tải [tại đây](https://github.com/P5ySm1th/CTF/blob/main/FIA/Technical%20Test/MISC%2BOSINT/data/Shiba.wav)
 
 Đề bài cho chúng ta một file `Shiba.wav` đây là một file nhạc, khá là chill =)) 
 Mọi người có thể mở lên mà nghe, nghe tới đoạn `0:20` tới `0:25` sẽ bị rè. Tới đây mình add thử vào bên trong [Sonic visualizer](https://www.sonicvisualiser.org/) hoặc [Audacity](https://www.audacityteam.org/download/).
@@ -62,7 +62,7 @@ Trong Sonic visualizer, và nhấn tổ hợp `Shift + G` để hiện ra specto
 Mình không biết mọi người sao chứ bài này đối với mình là khó nhất =)) thấy mọi người giải cái 1 còn mình thì mất tới hai ngày để giải nó =))
 
 Đề bài cho chúng ta một file có tên là `Shiba.png`
-Link tải: tại đây
+Link tải: [tại đây](https://github.com/P5ySm1th/CTF/blob/main/FIA/Technical%20Test/MISC%2BOSINT/data/Shiba.png)
 
 Mở file lên thì nó chỉ là một file con chó đơn giản
 <p align="center">
@@ -94,7 +94,7 @@ Full input bạn có thể xem [tại đây](https://gchq.github.io/CyberChef/#r
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/217158450-c0a50abd-4ce7-4ae5-8c52-e4cf083abaef.png">
 </p>
-
+Link tải:[tại đây](https://github.com/P5ySm1th/CTF/blob/main/FIA/Technical%20Test/MISC%2BOSINT/data/Shibaiscoming.jpg)
 Đề bài cho chúng ta một file JPG một con Shiba nữa :) 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/100250271/217158650-80ee204b-4cde-44b9-b8e8-cb5d326251d5.png">
