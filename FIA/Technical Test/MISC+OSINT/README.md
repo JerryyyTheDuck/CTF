@@ -287,7 +287,7 @@ Nhìn bức ảnh thì thôi rồi, osint xem nó ở đâu thôi. Nhanh trí b�
 Thoạt đầu, lúc lên google image, ta có thể thấy được đây có lẽ là một công viên, nhưng mà chưa biết là công viên nào.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/100250271/217251932-c10d1966-1ed0-4e19-9b88-9d07bf0d7eb0.png">
+  <img src="https://user-images.githubusercontent.com/100250271/218236262-ece06237-b7a5-4007-bb45-f17c726d7b75.png">
 </p>
 
 Đi dạo một hồi thì mình vào được trang web [này](https://www.littledayout.com/12-things-know-chestnut-nature-park-singapore/) và tìm thấy cuốn map này khá giống với map của bức hình tên trộm tró đó đưa:
