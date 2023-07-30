@@ -48,15 +48,20 @@ Ta có thể thấy rằng tại Offset `0x000000007e3e2070` có một file `asd
 </p>
 Sau đó ta sẽ dùng câu lệnh sau để dump file theo **Offset**: `vol.py -f “/path/to/file” ‑‑profile <profile> dumpfiles ‑‑dump-dir=“/path/to/dir” -Q <offset>`
 Sau khi dump ta có được file `dat` như hình dưới: 
+
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/b693d6d3-7213-435b-ad65-e3cd4b0eeb5d">
 </p>
-Nhưng lại không thể nào mở được. Nhưng vì file Office chính là một file `zip`. Bạn có thể đọc thêm [tại đây](https://www.quora.com/Why-are-Word-docx-files-actually-zip-files)
+
+  Nhưng lại không thể nào mở được. Nhưng vì file Office chính là một file `zip`. Bạn có thể đọc thêm [tại đây](https://www.quora.com/Why-are-Word-docx-files-actually-zip-files)
 Vì lười sử dụng [7zip](https://www.7-zip.org/) nên mình sẽ sử dụng [binwalk](https://github.com/ReFirmLabs/binwalk) để có thể giải nén. Ta có được như hình dưới đây: 
+  
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/70336d24-00af-4670-acf8-654dbaba3471">
 </p>
+
 Vì tính chất như một file `zip` nên chún ta có thể thấy rằng nó đã extract ra được khá là nhiều thông tin. Sau khi `extract` xong, ta vào bên trong Folder `/word/media/` và ra flag: 
+
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/ded069b1-071f-429a-86a2-5456f900470f">
 </p>
