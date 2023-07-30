@@ -14,17 +14,19 @@ Download file đề về thì ta có một file PCAP. Mở lên chế độ `Pro
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/646895db-8c3a-46a0-acef-95b2dc10761c">
 </p>
+
 Ta sẽ dùng filter `HTTP` để có thể xem được các gói UDP với giao thức là HTTP. Và nếu để ý kĩ thì ngay PDU đầu tiên, ta sẽ thấy nó chứa một file `xls` đây là đuôi file `excel`
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/3d6d1aa1-a8c1-4140-82e1-deecfbddf39f">
 </p>
+
 Ta sẽ export file excel đó và bỏ vào check Macro bằng `olevba`  có trong bộ công cụ [oletools](https://pypi.org/project/oletools/0.04/) sử dụng bên trong `linux`. Và ta thu được một đoạn `Macro` đã bị obfuscate bằng những kí tự khá là khó hiểu. 
 
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/7925d38b-ac27-4416-9436-ac51589067e1">
 </p>
 
-Full script có thể coi [tại đây]()
+Full script có thể coi [tại đây](https://github.com/P5ySm1th/CTF/blob/main/Cookie%20Area/Under%20Control/macro.txt)
 Sau khi thử 7749 các loại deobfuscate, mình đã gần như đã bỏ cuộc tới nơi, nhưng mà mình vẫn nán lại để có thể đọc source code obfuscate này và rút ra một thứ quan trọng như sau: 
 - Có một số function không bị obfuscate như `Msg`, `End if`, `If` hay thậm chí hàm tạo biến `Dim`
 <p align="center">
@@ -93,7 +95,7 @@ for line in lines:
             print(char, end='')
 ```
 
-File Deobfuscate [tại đây]()
+File Deobfuscate [tại đây](https://github.com/P5ySm1th/CTF/blob/main/Cookie%20Area/Under%20Control/decodeMacro.txt)
 Sau khi Deofuscate sẽ ra một đường link github: 
 ```
 https://gist.githubusercontent.com/bquanman/98da73d49faec0cbbdab02d4fd84adaa/raw/8de8b90981e667652b1a16f5caed364fdc311b77/a80sc012.ps1
@@ -104,12 +106,14 @@ https://gist.githubusercontent.com/bquanman/98da73d49faec0cbbdab02d4fd84adaa/raw
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/5930e117-6d40-4583-b8f3-93a515b42ae3">
 </p>
 
-Vì file decode quá dài nên mình sẽ để link [tại đây]()
+Vì file decode quá dài nên mình sẽ để link [tại đây](https://github.com/P5ySm1th/CTF/blob/main/Cookie%20Area/Under%20Control/decode.txt)
 Nhìn sơ qua đây là một file đã bị `Obfuscate Powershell` 
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/e8caacab-db4e-45a2-a61d-3a4ea9d31aa6">
 </p>
-Mình sẽ dùng tool [PowerDecode](https://github.com/Malandrone/PowerDecode) để decode và sẽ ra được kết quả như link [này]()
+
+Mình sẽ dùng tool [PowerDecode](https://github.com/Malandrone/PowerDecode) để decode và sẽ ra được kết quả như link [này](https://github.com/P5ySm1th/CTF/blob/main/Cookie%20Area/Under%20Control/decodeps.txt)
+
 Nói tóm tắt về đoạn code, nó sẽ send request tới server và dùng mã hóa AES để mã hóa với `${VxzTmff}  = 'd/3KwjM7m2cGAtLI67KlhDuXI/XRKSTkOlmJXE42R+M='` là key và IV được gắn trước khi được encrypt.
 `
 <p align="center">
