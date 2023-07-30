@@ -32,7 +32,9 @@ Khi đọc kĩ lại description của đề bài đưa ra
 ```
 Hòa đang làm báo cáo bài tập lớn để nộp cho thầy giáo thì bỗng nhiên máy tính của anh ấy bị tắt đột ngột do mất điện mà anh ấy thì chưa kịp lưu báo cáo một lần nào. Tuy nhiên sau đó, thay vì viết báo cáo mới thì Hòa đã chọn cách dành ra 4h đồng hồ để khôi phục báo cáo ban đầu từ tệp crash dump nhưng cuối cùng vẫn thất bại. Hòa thực sự đang cần trợ giúp.
 ```
+
 Thì mình nhận ra rằng, trong word có một cơ chế gọi là **auto save**. Mỗi máy có một thời gian  auto save khác nhau, và mình bắt đầu tìm hiểu trên mạng thì mình tìm được link [này](https://support.microsoft.com/vi-vn/topic/ca%CC%81ch-th%C6%B0%CC%81c-word-ta%CC%A3o-va%CC%80-phu%CC%A3c-h%C3%B4%CC%80i-ca%CC%81c-t%C3%AA%CC%A3p-t%C6%B0%CC%A3-%C4%91%C3%B4%CC%A3ng-phu%CC%A3c-h%C3%B4%CC%80i-a33ec235-9d68-cf62-e66a-6a740cf51821)
+
 <p align="center">
   <img src="https://github.com/P5ySm1th/CTF/assets/100250271/d414707b-df55-4943-8f3f-07706bac1862">
 </p>
